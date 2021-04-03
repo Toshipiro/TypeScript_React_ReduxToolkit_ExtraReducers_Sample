@@ -6,11 +6,11 @@ import { getPets } from './petSlice';
 
 /**
  * Dispatch the PetSlice action which calls Axios to get a pet list in REST server and store it into the slice store.
- * Show a pet list sotred in PetSlice Store and size of it.
+ * Show a pet list stored in PetSlice Store and size of it.
  * @returns
  */
 export const PetList: FC = () => {
-  /** Root dispach to access slice action. */
+  /** Root dispatch to access slice action. */
   const dispatch: AppDispatch = useDispatch<AppDispatch>();
 
   /** Store in PetSlice */
