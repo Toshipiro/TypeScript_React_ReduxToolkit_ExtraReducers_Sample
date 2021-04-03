@@ -14,6 +14,7 @@ If PetInput component add a pet, list of pet in PetList component will be update
 https://redux-toolkit.js.org/tutorials/overview
 
 # Online IDE
+https://codesandbox.io/s/typescriptreactreduxtoolkitextrareducerssample-56cdy
 
 # Module Versions
 
