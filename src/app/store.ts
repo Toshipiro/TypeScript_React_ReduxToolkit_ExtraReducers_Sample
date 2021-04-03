@@ -15,5 +15,5 @@ export const store = configureStore({
 /** Root State to access child slice store. */
 export type RootState = ReturnType<typeof store.getState>;
 
-/** Root dispach to access child slice action. */
+/** Root dispatch to access child slice action. */
 export type AppDispatch = typeof store.dispatch;
