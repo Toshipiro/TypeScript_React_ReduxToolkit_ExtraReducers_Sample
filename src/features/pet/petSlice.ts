@@ -33,7 +33,7 @@ const RESOURCE_PATH = '/pet';
 
 /** Async Thunk which get Pet data from Rest server using Axios. */
 export const getPets = createAsyncThunk<
-  /** Fullfiled data type. */
+  /** Fullfilled data type. */
   Pet[],
   /** Parameter data type. */
   string,
@@ -75,7 +75,7 @@ const petSlice = createSlice({
   initialState,
   /** Basic reducers of this slice. */
   reducers: {
-    /** Reducer which adds a pet record in This slice sotre. */
+    /** Reducer which adds a pet record in This slice store. */
     addPet: (state, action: PayloadAction<Pet>) => {
       console.log('addPet reducer of pet slice. id: ' + action.payload.id);
       state.value = state.value.concat(action.payload);
