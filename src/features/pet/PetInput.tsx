@@ -19,7 +19,7 @@ export const PetInput: FC = () => {
   /** Component level state of errors. */
   const [message, setMessage] = useState('');
 
-  /** Root dispach to access slice action. */
+  /** Root dispatch to access slice action. */
   const dispatch = useDispatch<AppDispatch>();
 
   /** Call Axios, then dispatch PetSlice action. */
@@ -47,7 +47,7 @@ export const PetInput: FC = () => {
       .addPet(pet)
       .then((value: AxiosResponse<Pet>) => {
         console.log(value.status);
-        /** Set pet Id whcih has been assigned by REST server. */
+        /** Set pet Id which has been assigned by REST server. */
         pet.id = value.data.id;
         dispatch(addPet(pet));
       })
