@@ -4,10 +4,10 @@ This simple application demonstrates how to use Redux toolkit ExtraReducer with 
 
 This application has two components.
 
-- PetInput component has a form for pet record. When clicked submit button, this posts it to REST server using Axios, then update state of Redux store using basic reduer.
+- PetInput component has a form to add a pet record. When clicked submit button, this posts it to REST server using Axios, then update state of Redux store using basic reduer.
 - PetList component shows a list of pets in store. When this component mounts, this gets data from REST server and update Redux store using extra reducer.
 
-If PetInput component add a pet, list of pet in PetList component will be updated automatically using Redux.
+If PetInput component add a pet record, list of pet in PetList component will be updated automatically using Redux.
 
 # Redux-toolkit Tutorials
 
